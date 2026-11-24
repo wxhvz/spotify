@@ -2,8 +2,8 @@
 Repo przedstawia **5 najczęściej słuchanych** utworów na spotify w Polsce z dnia 24.11.2026 w dwóch formatach: **JSON** *(JavaScript Object Notation)* oraz **CSV** *(Comma Separated Values)*.
 
 ## Zawartość repo:
-*`spotify.json` - dane zapisane w strukturze obiektowo tablicowej.
-*`spotify.csv` - dane zapisane w formie tabeli.
+* `spotify.json` - dane zapisane w strukturze obiektowo tablicowej.
+* `spotify.csv` - dane zapisane w formie tabeli.
 
 ---
 
@@ -22,7 +22,7 @@ Przechowuje dane w postaci **tabeli**, kolumny odpowiadają cechom, a wiersze pr
 
 * **Zastosowania:** najlepiej sprawdza się w przechowywaniu danych numerycznych.
 * **Budowa:** Plik składa sie z **wierszy** i **kolumn**. Komórki rozdziela się przecinkiem.
-* **Typ danych:** nie rozpoznaje typów danych i nie można narzucić formatu.
+* **Typ danych:** nie rozpoznaje typów danych.
 * **Wady i zalety:** bardzo prosty, plik możemy szybko otworzyc (np w *Excelu*), problemem są białe znaki i różnice w kodowaniu znaków.
 
 ---
@@ -30,17 +30,17 @@ Przechowuje dane w postaci **tabeli**, kolumny odpowiadają cechom, a wiersze pr
 ## Różnice w przedstawieniu danych
 Oba pliki przechowują dokładnie te same dane, ale przedstawiają je w inny sposób.
 
-* **Układ danych:** W pliku **CSV** mamy strukturę wierszy i kolumn. W **JSON** dane są zagnieżdżone, główny obiekt zawiera listę, w której wszystko jest osobnym obiektem.
+* **Układ danych:** W pliku **CSV** mamy strukturę wierszy i kolumn. W **JSON** dane są zagnieżdżone za pomocą obiektów i tablic.
 * **Opis wartości:** W **CSV** nagłówki kolumn pojawiają się tylko raz. W **JSON** nazwa klucza stoi przy każdej wartości.
-* **Rozróżnienie danych:** W **JSON** tekst jest zawsze w cudzysłowie, a liczby bez niego. W **CSV** używanie cudzysłowia nie jest konieczne i możemy zapisywać dane jako zwykły tekst.
+* **Rozróżnienie danych:** W **JSON** tekst jest zawsze w cudzysłowie, a liczby bez. W **CSV** używanie cudzysłowia nie jest konieczne i możemy zapisywać dane jako zwykły tekst.
 
 ---
 
 ## Porównanie JSON i CSV
 
 | Cecha | JSON | CSV |
-| ----- | ---- | --- |
-| **Struktura** | hierarchiczna, obiekty `{}` i tablice `[]` | prosta tabela |
+| --- | --- | --- |
+| **Struktura** | hierarchiczna, obiekty `{..}` i tablice `[..]` | prosta tabela |
 | **Rozróżnianie danych** | tak | domyślnie nie |
 | **Integracja z innymi źródłami** | łatwa dzięki swojej strukturze | problematyczna przez różnice w kodowaniu |
 | **Główne zastosowania** | wymiana danych w sieci, komunikacja z API | zestawienia w  tabeli, dane numeryczne |
@@ -48,7 +48,6 @@ Oba pliki przechowują dokładnie te same dane, ale przedstawiają je w inny spo
 ---
 
 ## Czytanie i otwieranie plików:
-W zależności od tego w jaki sposób chcemy wykorzystać te dane (rzucic na nie okiem, użyć w jakimś programie) mamy kilka opcji:
 
-* **Plik CSV:** po kliknięciu na niego w github strona od razu przedstawia go w formie tabeli. Możemy te tabele otworzyć też w excelu lub przejrzeć plik w notatniku.
-* **Plik JSON:** otworzy się jako zwykły plik tekstowy w dowolnym edytorze lub przeglądarce. 
+1. **Plik CSV:** po kliknięciu na niego w github strona od razu przedstawia go w formie tabeli. Możemy te tabele otworzyć też w excelu lub przejrzeć plik w notatniku.
+2. **Plik JSON:** otworzy się jako zwykły plik tekstowy. Możemy go otworzyć w dowolnym edytorze (np. w *visual studio code*) lub przeglądarce.
