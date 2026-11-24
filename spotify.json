@@ -1,0 +1,41 @@
+{
+  "kraj": "Polska",
+  "data": "2026-11-24",
+  "top_5": [
+    {
+      "pozycja": 1,
+      "tytul": "ZA KAZDYM RA2EM",
+      "wykonawca": "Young Multi",
+      "dlugosc": 202,
+      "liczba odtworzen": 343566
+    },
+    {
+      "pozycja": 2,
+      "tytul": "Mami",
+      "wykonawca": "730 Huncho",
+      "dlugosc": 172,
+      "liczba odtworzen": 301447
+    },
+    {
+      "pozycja": 3,
+      "tytul": "NIENAWIDZĘ WARSZAWY",
+      "wykonawca": "Otsochodzi",
+      "dlugosc": 186,
+      "liczba odtworzen": 261447
+    },
+    {
+      "pozycja": 4,
+      "tytul": "GATSBY",
+      "wykonawca": "SVM!R",
+      "dlugosc": 141,
+      "liczba odtworzen": 207881
+    },
+    {
+      "pozycja": 5,
+      "tytul": "BlackBerry",
+      "wykonawca": "Hellfield",
+      "dlugosc": 162,
+      "liczba odtworzen": 186234
+    }
+  ]
+}
